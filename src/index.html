@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pomodog</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<!--<div class="text-center">-->
+  <!--<h1>Pomodog 🐕</h1>-->
+  <!--<p>A better way to be productive.</p>-->
+
+  <!--<h2 id="timer">-->
+    <!--<span id="elmMinutes">00</span>:<span id="elmSeconds"-->
+                                          <!--model="timerSeconds">10</span>-->
+  <!--</h2>-->
+
+  <!--<button id="btn_start" class="button">Start️</button>-->
+  <!--<button id="btn_pause" class="button">Pause</button>-->
+  <!--<button id="btn_stop" class="button">Stop</button>-->
+
+
+  <!--<div class="debug">-->
+    <!--<h2 model="foo">Foo</h2>-->
+
+    <!--<input type="text" model="foo">-->
+  <!--</div>-->
+
+
+  <!--<div class="debug">-->
+    <!--<h2 model="todo">Foo</h2>-->
+
+    <!--<input type="text" model="timerSeconds">-->
+  <!--</div>-->
+
+
+
+  <!--<h3>Puppies kissed: <span id="laps_score" class="laps-content">0</span></h3>-->
+<!--</div>-->
+
+<h2 id="timer" model="foo">DaDoX</h2>
+<input type="text" model="foo">
+
+<h1>XXX {{joo.bla.bli}}</h1>
+
+
+<div>
+  <h1>{{todo.title}}</h1>
+  <input id="todo_input" type="text" placeholder="Type your task and hit enter."
+         model="temptask">
+
+  <ul id="todo_list">
+    <li @loop="todo.data" @status="status">{{task}}</li>
+  </ul>
+
+</div>
+
+
+<script src="js/loui.js"></script>
+
+  <!--<script src="js/plugins.js"></script>-->
+  <!--<script src="js/main.js"></script>-->
+</body>
+
+</html>

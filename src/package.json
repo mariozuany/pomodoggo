@@ -1,0 +1,23 @@
+{
+  "name": "pomodog",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "pomodog"
+  ],
+  "license": "",
+  "author": "Mario Zuany",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "modernizr": "^3.11.3",
+    "normalize": "^0.3.1"
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.laps-content {
+  display: block;
+  font-size: 3em;
+  letter-spacing: 1rem;
+}
+
+.button {
+  padding: 2px 16px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 3px 3px 0 1px #000;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border: 2px inset #000;
+  font-size: 0.9rem;
+}
+
+.button:active {
+  background: #dbdbdb;
+  box-shadow: 1px 1px 0 1px #000;
+}
+
+.debug {
+  border: 1px solid #000;
+  padding: 16px;
+  margin: 16px;
+}
